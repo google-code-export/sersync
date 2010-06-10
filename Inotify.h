@@ -48,7 +48,7 @@ protected:
     int FilterExclude(inotify_event* event); // filt the exclude directory or file
     int FillEvent(inotify_event* event, ptrQFilter que);
     static void* InitReguar();
-    bool IsDir(std::string path);
+    bool IsXfsDir(std::string path);
 private:
     bool ReadFill(ptrQFilter que);
 };

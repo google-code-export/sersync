@@ -35,6 +35,7 @@ public:
     static int time;
     static bool debug;
     static string timeout;
+    static string params;
 public:
     FileSynchronize(ptrInitialize init, ptrQFilter qf, ptrQRetry qr);
     static int XmlParse(ptrInitialize init); 

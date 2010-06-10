@@ -14,7 +14,7 @@
 #include"main.h"
 
 #define DEBUG 0
-int IN_SYNC = (IN_MOVED_FROM | IN_MOVED_TO | IN_CLOSE_WRITE); //wide off the IN_ATTRIB IN_MODIFY|
+int IN_SYNC = 0; // inotify monitor param:in_create in_close_write
 
 void DebugStart(int level);
 

@@ -43,6 +43,9 @@ public:
     int port;
     static bool debug;
     bool deleteFlag;
+    static bool createFile;
+    static bool createFolder;
+    static bool xfs;
 public:
     Initialize(int argc, char *argv[]);
     void ConfigInotify();
